@@ -1,0 +1,19 @@
+sudo: false
+dist: xenial
+language: python
+python:
+- '3.7'
+env:
+- TOX_ENV=flake8
+- TOX_ENV=migrate
+- TOX_ENV=test
+- TOX_ENV=behave
+install:
+- pip install tox python-coveralls
+
+branches:
+  only:
+  - master
+  - /\d+\.\d+\.\d+/
+script:
+- tox -e $TOX_ENV
