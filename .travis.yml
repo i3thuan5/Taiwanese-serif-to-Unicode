@@ -7,7 +7,7 @@ env:
 - TOX_ENV=flake8
 - TOX_ENV=test
 install:
-- pip install tox python-coveralls
+- pip install tox python-coveralls pytest pytest-cov
 
 branches:
   only:
@@ -15,5 +15,6 @@ branches:
   - /\d+\.\d+\.\d+/
 script:
 - tox -e $TOX_ENV
+- pytest --cov=Taiwanese-serif-to-Unicode/
 after_success:
   - coveralls
