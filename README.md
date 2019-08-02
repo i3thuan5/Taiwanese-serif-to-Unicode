@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/i3thuan5/Taiwanese-serif-to-Unicode.svg?branch=master)](https://travis-ci.org/i3thuan5/Taiwanese-serif-to-Unicode)
+
 # Taiwanese-serif-unicode
 
 ### 作業流程
