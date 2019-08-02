@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/i3thuan5/Taiwanese-serif-to-Unicode.svg?branch=master)](https://travis-ci.org/i3thuan5/Taiwanese-serif-to-Unicode)
 
+[![Coverage Status](https://coveralls.io/repos/github/i3thuan5/Taiwanese-serif-to-Unicode/badge.svg?branch=master)](https://coveralls.io/github/i3thuan5/Taiwanese-serif-to-Unicode?branch=master)
+
 # Taiwanese-serif-unicode
 
 ### 作業流程
