@@ -1,5 +1,5 @@
 from unittest.case import TestCase
-from 轉換器 import 轉換
+from TP2Unicode.轉換器 import 轉換
 
 
 class test轉換(TestCase):
